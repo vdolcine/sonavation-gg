@@ -1,9 +1,12 @@
+import { Canvas } from '@react-three/fiber';
+import Experience from './js/first-r3f-application/Experience.tsx';
+
 function App() {
   return (
-    <>
-      <p>THIS IS NOT A GAME!</p>
-    </>
-  )
+    <Canvas>
+      <Experience />
+    </Canvas>
+  );
 }
 
-export default App
+export default App;
